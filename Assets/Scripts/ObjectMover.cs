@@ -1,16 +1,16 @@
 using UnityEngine;
 using DG.Tweening;
 
-public class CapsuleScaler : MonoBehaviour
+public class ObjectMover : MonoBehaviour
 {
-    [SerializeField] private Vector3 _newScale;
+    [SerializeField] private Vector3 _newPosition;
     [SerializeField] private float _durarion;
     [SerializeField] private int _repeats;
 
     private void Start()
     {
         transform
-            .DOScale(_newScale, _durarion)
+            .DOMove(_newPosition, _durarion)
             .SetLoops(_repeats, LoopType.Yoyo);
     }
 }

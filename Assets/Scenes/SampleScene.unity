@@ -460,6 +460,8 @@ GameObject:
   - component: {fileID: 667877579}
   - component: {fileID: 667877578}
   - component: {fileID: 667877577}
+  - component: {fileID: 667877582}
+  - component: {fileID: 667877581}
   - component: {fileID: 667877580}
   m_Layer: 0
   m_Name: Cube2
@@ -563,16 +565,42 @@ MonoBehaviour:
   m_GameObject: {fileID: 667877575}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c72ed80e8be252240b3f4e8a2a2e301a, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f0bf4c16ed787743ad5fb4653aeaa00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _newPosition: {x: 5, y: 2, z: 10}
+  _durarion: 1.5
   _repeats: -1
-  _newScale: {x: 1.5, y: 1.5, z: 1.5}
-  _durarionScale: 1.5
-  _newPosition: {x: 5, y: 2, z: -5}
-  _durarionPosition: 1.5
+--- !u!114 &667877581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667877575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b0902d64d996094093e74b94e96bacf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   _newRotationAngle: {x: 0, y: 360, z: 0}
-  _durarionRotate: 1.5
+  _durarion: 1.5
+  _repeats: -1
+--- !u!114 &667877582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667877575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c9537d02d2c71f48aa7e3885c803f98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _newScale: {x: 1.2, y: 1.2, z: 1.2}
+  _durarion: 1.5
+  _repeats: -1
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
