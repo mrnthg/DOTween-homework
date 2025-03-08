@@ -973,6 +973,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _text: {fileID: 224014120}
   _durarion: 1.5
+  _durarionInterval: 1
 --- !u!1 &1444910010
 GameObject:
   m_ObjectHideFlags: 0
